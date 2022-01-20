@@ -34,7 +34,7 @@
                 </li>
             </ul>
             <a href="#contact" class="btn btn-sm nav-btn text-primary mb-4 mb-lg-0">Get Cortexed<i class="icon-xxs ms-1"
-                                                                                                 data-feather="chevrons-right"></i></a>
+                                                                                                   data-feather="chevrons-right"></i></a>
         </div>
     </div>
     <!-- end container -->
@@ -83,7 +83,8 @@
                     <div class="card-body p-4 m-2">
                         <i class="icon-xl service-icon sw-1" data-feather="alert-octagon"></i>
                         <h5 class="service-title fs-18 my-4">Highly Accessible</h5>
-                        <p class="service-subtitle pb-4">Finding the best training is as simple as scanning the code on the device.</p>
+                        <p class="service-subtitle pb-4">Finding the best training is as simple as scanning the code on
+                            the device.</p>
                     </div>
                 </div>
             </div>
@@ -92,7 +93,8 @@
                     <div class="card-body p-4 m-2">
                         <i class="icon-xl sw-1 service-icon" data-feather="droplet"></i>
                         <h5 class="service-title fs-18 my-4">Adaptive Learning</h5>
-                        <p class="service-subtitle pb-4">Whether you learn better through video or text, Cortexed has you covered.</p>
+                        <p class="service-subtitle pb-4">Whether you learn better through video or text, Cortexed has
+                            you covered.</p>
                     </div>
                 </div>
             </div>
@@ -103,7 +105,7 @@
                         <h5 class="service-title fs-18 my-4">Intelligent Search</h5>
                         <p class="service-subtitle pb-4">Separated they live in Bookmarksgrove right at the coast of the
                             Semantics, and large language ocean neary.</p>
-                    </div> 
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
@@ -155,31 +157,10 @@
         </div>
         <!-- end row -->
 
-        <!-- start form -->
-        <form method="post" name="myForm" onsubmit="return validateForm()">
-            <span id="error-msg"></span>
-            <div class="row">
-                <div class="col-12 mt-4 pt-2">
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label class="fw-medium form-label" for="name">Name</label>
-                            <input type="text" class="form-control" placeholder="Your name" id="name"/>
-                        </div>
-                        <!-- end col -->
-                        <div class="col-md-6 mb-3">
-                            <label class="fw-medium form-label" for="email">Email</label>
-                            <input type="email" class="form-control" placeholder="Your email" id="email"/>
-                        </div>
-                        <div class="col-12">
-                            <input type="submit" id="submit" name="send" class="btn btn-primary mt-2"
-                                   value="Submit"/>
-                        </div>
-                        <!-- end col -->
-                    </div>
-                </div>
-            </div>
-            <!-- end row -->
-        </form>
+        <div class="ml-form-embed"
+             data-account="3754283:w8d3r7z0b5"
+             data-form="5327663:k0p2b7">
+        </div>
         <!-- end form -->
     </div>
     <!-- end container -->
@@ -238,5 +219,31 @@
         windowScroll();
     })
 </script>
+
+<!-- MailerLite Universal -->
+<script>
+    (function (m, a, i, l, e, r) {
+        m['MailerLiteObject'] = e;
+
+        function f() {
+            var c = {a: arguments, q: []};
+            var r = this.push(c);
+            return "number" != typeof r ? r : f.bind(c.q);
+        }
+
+        f.q = f.q || [];
+        m[e] = m[e] || f.bind(f.q);
+        m[e].q = m[e].q || f.q;
+        r = a.createElement(i);
+        var _ = a.getElementsByTagName(i)[0];
+        r.async = 1;
+        r.src = l + '?v' + (~~(new Date().getTime() / 1000000));
+        _.parentNode.insertBefore(r, _);
+    })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+    var ml_account = ml('accounts', '3754283', 'w8d3r7z0b5', 'load');
+</script>
+<!-- End MailerLite Universal -->
+
 </body>
 </html>
